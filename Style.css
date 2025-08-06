@@ -1,0 +1,66 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+margin: 0;
+padding: 0;
+background: #fff;
+color: #333;
+text-align: center;
+}
+
+.hero {
+background: url('images/suji.png') no-repeat center center/cover;
+height: 100vh;
+color: white;
+position: relative;
+}
+
+.overlay {
+background: rgba(0, 0, 0, 0.5);
+height: 100%;
+padding-top: 100px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background: #ff4081;
+color: white;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 15px;
+}
+
+.btn.green {
+background: #25D366;
+}
+
+section {
+padding: 60px 20px;
+}
+
+.details iframe {
+margin-top: 20px;
+border: none;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 10px;
+padding: 20px;
+}
+
+.gallery-grid img {
+width: 100%;
+border-radius: 8px;
+}
+
+footer {
+background: #222;
+color: white;
+padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+.hero h1 { font-size: 28px; }
+}
